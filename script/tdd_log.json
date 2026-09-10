@@ -604,9 +604,23 @@
     "testId": 22
   },
   {
-    "commitId": "HEAD",
+    "commitId": "c470885346addad10dc21be53dd01c733e2f3c41",
     "commitName": "feat: implementar categoria Vestimenta con impuesto adicional",
     "commitTimestamp": 1789035075657,
     "testId": 22
+  },
+  {
+    "numPassedTests": 23,
+    "failedTests": 0,
+    "numTotalTests": 23,
+    "timestamp": 1789035107803,
+    "success": true,
+    "testId": 23
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: implementar y verificar categoria por defecto Varios",
+    "commitTimestamp": 1789035126459,
+    "testId": 23
   }
 ]

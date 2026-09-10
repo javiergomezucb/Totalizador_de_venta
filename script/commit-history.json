@@ -418,12 +418,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "c470885346addad10dc21be53dd01c733e2f3c41",
     "author": "javichosGIT",
     "commit": {
       "date": "2026-09-10T10:11:14.000Z",
       "message": "feat: implementar categoria Vestimenta con impuesto adicional",
-      "url": "https://github.com/javiergomezucb/Totalizador_de_venta/commit/HEAD"
+      "url": "https://github.com/javiergomezucb/Totalizador_de_venta/commit/c470885346addad10dc21be53dd01c733e2f3c41"
     },
     "stats": {
       "total": 6,
@@ -433,6 +433,25 @@
     },
     "coverage": 100,
     "test_count": 22,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "javichosGIT",
+    "commit": {
+      "date": "2026-09-10T10:12:05.000Z",
+      "message": "feat: implementar y verificar categoria por defecto Varios",
+      "url": "https://github.com/javiergomezucb/Totalizador_de_venta/commit/HEAD"
+    },
+    "stats": {
+      "total": 5,
+      "additions": 5,
+      "deletions": 0,
+      "date": "2026-09-10"
+    },
+    "coverage": 100,
+    "test_count": 23,
     "failed_tests": 0,
     "conclusion": "success"
   }

@@ -108,4 +108,9 @@ it("debería aplicar el impuesto adicional de la categoría Bebidas alcohólicas
     const resultado = calcularTotal(5, 100, "AL", "Vestimenta");
     expect(resultado).toEqual(530);
   });
+
+  it("debería aplicar los valores por defecto de la categoría Varios (0% adicional)", () => {
+    const resultado = calcularTotal(5, 100, "AL", "Varios");
+    expect(resultado).toEqual(520);
+  });
 });
