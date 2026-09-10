@@ -768,9 +768,23 @@
     "testId": 28
   },
   {
-    "commitId": "HEAD",
+    "commitId": "4fb5d2b198081a83d8cf2a5d7d53d0d39fcd8254",
     "commitName": "feat: implementar descuento fijo de  para cliente Especial en Electronicos",
     "commitTimestamp": 1789035600369,
     "testId": 28
+  },
+  {
+    "numPassedTests": 28,
+    "failedTests": 0,
+    "numTotalTests": 28,
+    "timestamp": 1789035627846,
+    "success": true,
+    "testId": 29
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: completar la implementacion de tipos de cliente y descuentos fijos del totalizador",
+    "commitTimestamp": 1789035637362,
+    "testId": 29
   }
 ]
