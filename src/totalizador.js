@@ -13,6 +13,8 @@ export function calcularTotal(cantidad, precioUnitario, estado = "CA") {
     tasaImpuesto = 0.0665;
   } else if (estado === "NV") {
     tasaImpuesto = 0.08;
+  } else if (estado === "TX") {
+    tasaImpuesto = 0.0625;
   }
 
   return subtotal + (subtotal * tasaImpuesto);

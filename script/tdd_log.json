@@ -174,9 +174,39 @@
     "testId": 9
   },
   {
-    "commitId": "HEAD",
+    "commitId": "e60c1e1ee409c62c2c5785857097a4bcf1ab6df9",
     "commitName": "feat: calcular impuesto para el estado NV funcionando",
     "commitTimestamp": 1789033404136,
     "testId": 9
+  },
+  {
+    "numPassedTests": 8,
+    "failedTests": 1,
+    "numTotalTests": 9,
+    "timestamp": 1789033444162,
+    "success": false,
+    "testId": 10
+  },
+  {
+    "numPassedTests": 8,
+    "failedTests": 1,
+    "numTotalTests": 9,
+    "timestamp": 1789033466677,
+    "success": false,
+    "testId": 10
+  },
+  {
+    "numPassedTests": 9,
+    "failedTests": 0,
+    "numTotalTests": 9,
+    "timestamp": 1789033482558,
+    "success": true,
+    "testId": 10
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: calcular impuesto para el estado TX",
+    "commitTimestamp": 1789033498271,
+    "testId": 10
   }
 ]

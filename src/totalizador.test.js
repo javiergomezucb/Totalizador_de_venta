@@ -37,4 +37,9 @@ describe("Totalizador de ventas", () => {
     const resultado = calcularTotal(5, 10, "NV");
     expect(resultado).toEqual(54);
   });
+
+  it("debería calcular el precio total incluyendo el impuesto para el estado TX (6.25%)", () => {
+    const resultado = calcularTotal(5, 10, "TX");
+    expect(resultado).toEqual(53.125);
+  });
 });
