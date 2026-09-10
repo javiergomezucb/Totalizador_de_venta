@@ -17,4 +17,9 @@ describe("Totalizador de ventas", () => {
     const resultado = calcularTotal(5, -10);
     expect(resultado).toEqual("Error: Precio inválido");
   });
+
+  it("debería mostrar un mensaje de error si el precio no es un número", () => {
+    const resultado = calcularTotal(5, "abc");
+    expect(resultado).toEqual("Error: Precio inválido");
+  });
 });

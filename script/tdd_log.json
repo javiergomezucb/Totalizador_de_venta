@@ -72,9 +72,23 @@
     "testId": 4
   },
   {
-    "commitId": "HEAD",
+    "commitId": "5e3a25affc30b7785ef39c7c82254201ccf97395",
     "commitName": "feat: validar precio negativo o no numerico",
     "commitTimestamp": 1789032881780,
     "testId": 4
+  },
+  {
+    "numPassedTests": 5,
+    "failedTests": 0,
+    "numTotalTests": 5,
+    "timestamp": 1789032903885,
+    "success": true,
+    "testId": 5
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: validar precio negativo o no numerico prueba2",
+    "commitTimestamp": 1789032932270,
+    "testId": 5
   }
 ]
