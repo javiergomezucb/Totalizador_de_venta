@@ -475,12 +475,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "6b1ae1be9d5980e0fb64a5c67bb641191fc4bcd6",
     "author": "javichosGIT",
     "commit": {
       "date": "2026-09-10T10:17:17.000Z",
       "message": "feat: implementar descuento en costo de envio para cliente Recurrente",
-      "url": "https://github.com/javiergomezucb/Totalizador_de_venta/commit/HEAD"
+      "url": "https://github.com/javiergomezucb/Totalizador_de_venta/commit/6b1ae1be9d5980e0fb64a5c67bb641191fc4bcd6"
     },
     "stats": {
       "total": 20,
@@ -490,6 +490,25 @@
     },
     "coverage": 88.64,
     "test_count": 25,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "javichosGIT",
+    "commit": {
+      "date": "2026-09-10T10:18:01.000Z",
+      "message": "feat: implementar descuento en costo de envio para cliente Antiguo Recurrente",
+      "url": "https://github.com/javiergomezucb/Totalizador_de_venta/commit/HEAD"
+    },
+    "stats": {
+      "total": 5,
+      "additions": 5,
+      "deletions": 0,
+      "date": "2026-09-10"
+    },
+    "coverage": 88.64,
+    "test_count": 26,
     "failed_tests": 0,
     "conclusion": "success"
   }

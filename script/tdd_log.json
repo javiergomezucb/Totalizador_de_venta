@@ -694,9 +694,23 @@
     "testId": 25
   },
   {
-    "commitId": "HEAD",
+    "commitId": "6b1ae1be9d5980e0fb64a5c67bb641191fc4bcd6",
     "commitName": "feat: implementar descuento en costo de envio para cliente Recurrente",
     "commitTimestamp": 1789035438450,
     "testId": 25
+  },
+  {
+    "numPassedTests": 26,
+    "failedTests": 0,
+    "numTotalTests": 26,
+    "timestamp": 1789035471714,
+    "success": true,
+    "testId": 26
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: implementar descuento en costo de envio para cliente Antiguo Recurrente",
+    "commitTimestamp": 1789035481965,
+    "testId": 26
   }
 ]
