@@ -5,5 +5,13 @@ export function calcularTotal(cantidad, precioUnitario, estado = "CA") {
   if (precioUnitario < 0 || isNaN(precioUnitario)) {
     return "Error: Precio inválido";
   }
-  return cantidad * precioUnitario;
+
+  const subtotal = cantidad * precioUnitario;
+  
+  let tasaImpuesto = 0;
+  if (estado === "UT") {
+    tasaImpuesto = 0.0665;
+  }
+
+  return subtotal + (subtotal * tasaImpuesto);
 }
