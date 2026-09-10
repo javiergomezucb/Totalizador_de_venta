@@ -160,9 +160,23 @@
     "testId": 8
   },
   {
-    "commitId": "HEAD",
+    "commitId": "5b8cde3d72dfed3cf2b315d88906d85b7188b017",
     "commitName": "feat: calcular impuesto para el estado NV intento",
     "commitTimestamp": 1789033371906,
     "testId": 8
+  },
+  {
+    "numPassedTests": 8,
+    "failedTests": 0,
+    "numTotalTests": 8,
+    "timestamp": 1789033389220,
+    "success": true,
+    "testId": 9
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: calcular impuesto para el estado NV funcionando",
+    "commitTimestamp": 1789033404136,
+    "testId": 9
   }
 ]

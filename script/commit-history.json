@@ -152,16 +152,35 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "5b8cde3d72dfed3cf2b315d88906d85b7188b017",
     "author": "javichosGIT",
     "commit": {
       "date": "2026-09-10T09:42:51.000Z",
       "message": "feat: calcular impuesto para el estado NV intento",
-      "url": "https://github.com/javiergomezucb/Totalizador_de_venta/commit/HEAD"
+      "url": "https://github.com/javiergomezucb/Totalizador_de_venta/commit/5b8cde3d72dfed3cf2b315d88906d85b7188b017"
     },
     "stats": {
       "total": 7,
       "additions": 7,
+      "deletions": 0,
+      "date": "2026-09-10"
+    },
+    "coverage": 100,
+    "test_count": 8,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "javichosGIT",
+    "commit": {
+      "date": "2026-09-10T09:43:23.000Z",
+      "message": "feat: calcular impuesto para el estado NV funcionando",
+      "url": "https://github.com/javiergomezucb/Totalizador_de_venta/commit/HEAD"
+    },
+    "stats": {
+      "total": 0,
+      "additions": 0,
       "deletions": 0,
       "date": "2026-09-10"
     },
