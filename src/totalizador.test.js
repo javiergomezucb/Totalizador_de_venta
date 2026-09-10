@@ -47,4 +47,9 @@ describe("Totalizador de ventas", () => {
     const resultado = calcularTotal(5, 10, "AL");
     expect(resultado).toEqual(52);
   });
+
+  it("debería calcular el precio total incluyendo el impuesto para el estado CA (8.25%)", () => {
+    const resultado = calcularTotal(5, 10, "CA");
+    expect(resultado).toEqual(54.125);
+  });
 });

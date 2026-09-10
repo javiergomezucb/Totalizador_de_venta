@@ -226,9 +226,23 @@
     "testId": 11
   },
   {
-    "commitId": "HEAD",
+    "commitId": "5e7b71e5eefc9ceecb3b5432a93a48af2a4fdd85",
     "commitName": "feat: calcular impuesto para el estado AL",
     "commitTimestamp": 1789033547386,
     "testId": 11
+  },
+  {
+    "numPassedTests": 10,
+    "failedTests": 1,
+    "numTotalTests": 11,
+    "timestamp": 1789033579108,
+    "success": false,
+    "testId": 12
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: calcular impuesto para el estado CA",
+    "commitTimestamp": 1789033602916,
+    "testId": 12
   }
 ]

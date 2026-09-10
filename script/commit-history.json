@@ -209,12 +209,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "5e7b71e5eefc9ceecb3b5432a93a48af2a4fdd85",
     "author": "javichosGIT",
     "commit": {
       "date": "2026-09-10T09:45:46.000Z",
       "message": "feat: calcular impuesto para el estado AL",
-      "url": "https://github.com/javiergomezucb/Totalizador_de_venta/commit/HEAD"
+      "url": "https://github.com/javiergomezucb/Totalizador_de_venta/commit/5e7b71e5eefc9ceecb3b5432a93a48af2a4fdd85"
     },
     "stats": {
       "total": 7,
@@ -226,5 +226,24 @@
     "test_count": 10,
     "failed_tests": 0,
     "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "javichosGIT",
+    "commit": {
+      "date": "2026-09-10T09:46:42.000Z",
+      "message": "feat: calcular impuesto para el estado CA",
+      "url": "https://github.com/javiergomezucb/Totalizador_de_venta/commit/HEAD"
+    },
+    "stats": {
+      "total": 7,
+      "additions": 7,
+      "deletions": 0,
+      "date": "2026-09-10"
+    },
+    "coverage": 100,
+    "test_count": 11,
+    "failed_tests": 2,
+    "conclusion": "failure"
   }
 ]
