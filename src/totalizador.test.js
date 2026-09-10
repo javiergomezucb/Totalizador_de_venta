@@ -78,4 +78,9 @@ describe("Totalizador de ventas", () => {
     const resultado = calcularTotal(3000, 10, "AL");
     expect(resultado).toEqual(26520);
   });
+
+  it("debería aplicar el descuento adicional de la categoría Alimentos (2%)", () => {
+    const resultado = calcularTotal(5, 100, "AL", "Alimentos");
+    expect(resultado).toEqual(509.6);
+  });
 });

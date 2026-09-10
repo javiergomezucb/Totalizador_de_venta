@@ -432,9 +432,31 @@
     "testId": 16
   },
   {
-    "commitId": "HEAD",
+    "commitId": "0b6a52f6caa947abee90395b44e3cfb86017e442",
     "commitName": "feat: implementar quinto tramo de descuento por volumen (15%)",
     "commitTimestamp": 1789034505886,
     "testId": 16
+  },
+  {
+    "numPassedTests": 16,
+    "failedTests": 1,
+    "numTotalTests": 17,
+    "timestamp": 1789034620002,
+    "success": false,
+    "testId": 17
+  },
+  {
+    "numPassedTests": 17,
+    "failedTests": 0,
+    "numTotalTests": 17,
+    "timestamp": 1789034635523,
+    "success": true,
+    "testId": 17
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: implementar categoria de producto Alimentos con descuento adicional",
+    "commitTimestamp": 1789034676969,
+    "testId": 17
   }
 ]

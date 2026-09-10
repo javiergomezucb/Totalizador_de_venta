@@ -304,12 +304,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "0b6a52f6caa947abee90395b44e3cfb86017e442",
     "author": "javichosGIT",
     "commit": {
       "date": "2026-09-10T10:01:45.000Z",
       "message": "feat: implementar quinto tramo de descuento por volumen (15%)",
-      "url": "https://github.com/javiergomezucb/Totalizador_de_venta/commit/HEAD"
+      "url": "https://github.com/javiergomezucb/Totalizador_de_venta/commit/0b6a52f6caa947abee90395b44e3cfb86017e442"
     },
     "stats": {
       "total": 6,
@@ -319,6 +319,25 @@
     },
     "coverage": 100,
     "test_count": 16,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "javichosGIT",
+    "commit": {
+      "date": "2026-09-10T10:04:36.000Z",
+      "message": "feat: implementar categoria de producto Alimentos con descuento adicional",
+      "url": "https://github.com/javiergomezucb/Totalizador_de_venta/commit/HEAD"
+    },
+    "stats": {
+      "total": 34,
+      "additions": 24,
+      "deletions": 10,
+      "date": "2026-09-10"
+    },
+    "coverage": 100,
+    "test_count": 17,
     "failed_tests": 0,
     "conclusion": "success"
   }
