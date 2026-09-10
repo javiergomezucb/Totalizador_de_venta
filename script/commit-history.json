@@ -190,12 +190,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "9b3814c3da40f3d0d7cf06d76365d06e73d500db",
     "author": "javichosGIT",
     "commit": {
       "date": "2026-09-10T09:44:57.000Z",
       "message": "feat: calcular impuesto para el estado TX",
-      "url": "https://github.com/javiergomezucb/Totalizador_de_venta/commit/HEAD"
+      "url": "https://github.com/javiergomezucb/Totalizador_de_venta/commit/9b3814c3da40f3d0d7cf06d76365d06e73d500db"
     },
     "stats": {
       "total": 7,
@@ -205,6 +205,25 @@
     },
     "coverage": 100,
     "test_count": 9,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "javichosGIT",
+    "commit": {
+      "date": "2026-09-10T09:45:46.000Z",
+      "message": "feat: calcular impuesto para el estado AL",
+      "url": "https://github.com/javiergomezucb/Totalizador_de_venta/commit/HEAD"
+    },
+    "stats": {
+      "total": 7,
+      "additions": 7,
+      "deletions": 0,
+      "date": "2026-09-10"
+    },
+    "coverage": 100,
+    "test_count": 10,
     "failed_tests": 0,
     "conclusion": "success"
   }
