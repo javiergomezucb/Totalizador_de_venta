@@ -342,12 +342,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "74f959c6bbce270da3a1a018cb7612bff6a9d3e6",
     "author": "javichosGIT",
     "commit": {
       "date": "2026-09-10T10:06:40.000Z",
       "message": "fix: corregir expectativa de prueba para categoria Bebidas alcoholicas",
-      "url": "https://github.com/javiergomezucb/Totalizador_de_venta/commit/HEAD"
+      "url": "https://github.com/javiergomezucb/Totalizador_de_venta/commit/74f959c6bbce270da3a1a018cb7612bff6a9d3e6"
     },
     "stats": {
       "total": 6,
@@ -357,6 +357,25 @@
     },
     "coverage": 100,
     "test_count": 18,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "javichosGIT",
+    "commit": {
+      "date": "2026-09-10T10:07:43.000Z",
+      "message": "feat: implementar categoria Material de escritorio con descuento adicional",
+      "url": "https://github.com/javiergomezucb/Totalizador_de_venta/commit/HEAD"
+    },
+    "stats": {
+      "total": 6,
+      "additions": 6,
+      "deletions": 0,
+      "date": "2026-09-10"
+    },
+    "coverage": 100,
+    "test_count": 19,
     "failed_tests": 0,
     "conclusion": "success"
   }

@@ -500,9 +500,39 @@
     "testId": 18
   },
   {
-    "commitId": "HEAD",
+    "commitId": "74f959c6bbce270da3a1a018cb7612bff6a9d3e6",
     "commitName": "fix: corregir expectativa de prueba para categoria Bebidas alcoholicas",
     "commitTimestamp": 1789034801648,
     "testId": 18
+  },
+  {
+    "numPassedTests": 18,
+    "failedTests": 0,
+    "numTotalTests": 18,
+    "timestamp": 1789034829966,
+    "success": true,
+    "testId": 19
+  },
+  {
+    "numPassedTests": 18,
+    "failedTests": 1,
+    "numTotalTests": 19,
+    "timestamp": 1789034844643,
+    "success": false,
+    "testId": 19
+  },
+  {
+    "numPassedTests": 19,
+    "failedTests": 0,
+    "numTotalTests": 19,
+    "timestamp": 1789034854584,
+    "success": true,
+    "testId": 19
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: implementar categoria Material de escritorio con descuento adicional",
+    "commitTimestamp": 1789034863932,
+    "testId": 19
   }
 ]
