@@ -1,11 +1,11 @@
 [
   {
-    "sha": "HEAD",
+    "sha": "4e74814126e46d0157a60bd44a148f55ccd40ce7",
     "author": "javichosGIT",
     "commit": {
       "date": "2026-09-10T08:04:37.000Z",
       "message": "chore: inicializar proyecto base",
-      "url": "/commit/HEAD"
+      "url": "/commit/4e74814126e46d0157a60bd44a148f55ccd40ce7"
     },
     "stats": {
       "total": 29963,
@@ -15,6 +15,25 @@
     },
     "coverage": 100,
     "test_count": 1,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "javichosGIT",
+    "commit": {
+      "date": "2026-09-10T09:28:17.000Z",
+      "message": "feat: implementar calculo de precio total base",
+      "url": "https://github.com/javiergomezucb/Totalizador_de_venta/commit/HEAD"
+    },
+    "stats": {
+      "total": 13,
+      "additions": 13,
+      "deletions": 0,
+      "date": "2026-09-10"
+    },
+    "coverage": 100,
+    "test_count": 2,
     "failed_tests": 0,
     "conclusion": "success"
   }
