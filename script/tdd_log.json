@@ -358,9 +358,39 @@
     "testId": 13
   },
   {
-    "commitId": "HEAD",
+    "commitId": "08bad736709caa09c2d29a2af87fb73738291d2f",
     "commitName": "feat: actualizar logica y pruebas para tramos de descuento y validaciones base",
     "commitTimestamp": 1789034290350,
     "testId": 13
+  },
+  {
+    "numPassedTests": 14,
+    "failedTests": 0,
+    "numTotalTests": 14,
+    "timestamp": 1789034348377,
+    "success": true,
+    "testId": 14
+  },
+  {
+    "numPassedTests": 14,
+    "failedTests": 0,
+    "numTotalTests": 14,
+    "timestamp": 1789034363761,
+    "success": true,
+    "testId": 14
+  },
+  {
+    "numPassedTests": 14,
+    "failedTests": 0,
+    "numTotalTests": 14,
+    "timestamp": 1789034390908,
+    "success": true,
+    "testId": 14
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: implementar tercer tramo de descuento por volumen (7%)",
+    "commitTimestamp": 1789034400969,
+    "testId": 14
   }
 ]

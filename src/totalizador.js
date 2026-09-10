@@ -8,8 +8,7 @@ export function calcularTotal(cantidad, precioUnitario, estado = "CA") {
 
   const precioNeto = cantidad * precioUnitario;
   
-  // Descuentos por volumen según la tabla oficial[cite: 1]
-  let descuento = 0;
+let descuento = 0;
   if (precioNeto >= 30000) {
     descuento = 0.15;
   } else if (precioNeto >= 10000) {

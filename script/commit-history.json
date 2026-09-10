@@ -247,12 +247,12 @@
     "conclusion": "failure"
   },
   {
-    "sha": "HEAD",
+    "sha": "08bad736709caa09c2d29a2af87fb73738291d2f",
     "author": "javichosGIT",
     "commit": {
       "date": "2026-09-10T09:58:09.000Z",
       "message": "feat: actualizar logica y pruebas para tramos de descuento y validaciones base",
-      "url": "https://github.com/javiergomezucb/Totalizador_de_venta/commit/HEAD"
+      "url": "https://github.com/javiergomezucb/Totalizador_de_venta/commit/08bad736709caa09c2d29a2af87fb73738291d2f"
     },
     "stats": {
       "total": 55,
@@ -262,6 +262,25 @@
     },
     "coverage": 85.71,
     "test_count": 13,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "javichosGIT",
+    "commit": {
+      "date": "2026-09-10T10:00:00.000Z",
+      "message": "feat: implementar tercer tramo de descuento por volumen (7%)",
+      "url": "https://github.com/javiergomezucb/Totalizador_de_venta/commit/HEAD"
+    },
+    "stats": {
+      "total": 8,
+      "additions": 6,
+      "deletions": 2,
+      "date": "2026-09-10"
+    },
+    "coverage": 90.48,
+    "test_count": 14,
     "failed_tests": 0,
     "conclusion": "success"
   }
