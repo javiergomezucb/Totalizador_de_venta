@@ -1,18 +1,61 @@
 <!DOCTYPE html>
 <html xml:lang="es">
   <head>
-    <title>Sumador</title>
+    <meta charset="UTF-8">
+    <title>Totalizador de Ventas Avanzado</title>
   </head>
-  <body>
-    <h1>Sumador</h1>
-    <form id="sumar-form">
-      <label for="primer-numero">Primer número:</label>
-      <input type="number" id="primer-numero" />
-      <label for="segundo-numero">Segundo número:</label>
-      <input type="number" id="segundo-numero" />
-      <input type="submit" value="Sumar" id="sumar-button" />
+  <body style="font-family: Arial, sans-serif; margin: 30px;">
+    <h1>Totalizador de Ventas</h1>
+    <form id="totalizador-form">
+      <div style="margin-bottom: 12px;">
+        <label for="cantidad-items" style="display:inline-block; width: 220px;">Cantidad de items:</label>
+        <input type="number" id="cantidad-items" required min="1" />
+      </div>
+      <div style="margin-bottom: 12px;">
+        <label for="precio-item" style="display:inline-block; width: 220px;">Precio por item:</label>
+        <input type="number" id="precio-item" step="0.01" required min="0" />
+      </div>
+      <div style="margin-bottom: 12px;">
+        <label for="codigo-estado" style="display:inline-block; width: 220px;">Código de estado (USA):</label>
+        <select id="codigo-estado">
+          <option value="CA">California (CA)</option>
+          <option value="AL">Alabama (AL)</option>
+          <option value="TX">Texas (TX)</option>
+          <option value="NV">Nevada (NV)</option>
+          <option value="UT">Utah (UT)</option>
+        </select>
+      </div>
+      <div style="margin-bottom: 12px;">
+        <label for="categoria-producto" style="display:inline-block; width: 220px;">Categoría de producto:</label>
+        <select id="categoria-producto">
+          <option value="Varios">Varios</option>
+          <option value="Alimentos">Alimentos</option>
+          <option value="Bebidas alcohólicas">Bebidas alcohólicas</option>
+          <option value="Material de escritorio">Material de escritorio</option>
+          <option value="Muebles">Muebles</option>
+          <option value="Electrónicos">Electrónicos</option>
+          <option value="Vestimenta">Vestimenta</option>
+        </select>
+      </div>
+      <div style="margin-bottom: 12px;">
+        <label for="peso-volumetrico" style="display:inline-block; width: 220px;">Peso volumétrico (por unidad):</label>
+        <input type="number" id="peso-volumetrico" step="0.1" value="0" min="0" />
+      </div>
+      <div style="margin-bottom: 15px;">
+        <label for="tipo-cliente" style="display:inline-block; width: 220px;">Tipo de cliente:</label>
+        <select id="tipo-cliente">
+          <option value="Normal">Normal</option>
+          <option value="Recurrente">Recurrente</option>
+          <option value="Antiguo Recurrente">Antiguo Recurrente</option>
+          <option value="Especial">Especial</option>
+        </select>
+      </div>
+      <div style="margin-bottom: 20px;">
+        <input type="submit" value="Totalizar" id="totalizar-button" style="padding: 6px 15px; cursor: pointer;" />
+      </div>
     </form>
-    <div id="resultado-div"></div>
+    
+    <div id="resultado-div" style="margin-top: 20px; padding: 15px; border: 1px solid #ccc; width: 400px; background: #f9f9f9;"></div>
 
     <script type="module" src="./src/presenter.js"></script>
   </body>

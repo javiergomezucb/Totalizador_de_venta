@@ -551,12 +551,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "5fda95eb1879d9e772dc85b2dd38b6e39f82e9ea",
     "author": "javichosGIT",
     "commit": {
       "date": "2026-09-10T10:20:36.000Z",
       "message": "feat: completar la implementacion de tipos de cliente y descuentos fijos del totalizador",
-      "url": "https://github.com/javiergomezucb/Totalizador_de_venta/commit/HEAD"
+      "url": "https://github.com/javiergomezucb/Totalizador_de_venta/commit/5fda95eb1879d9e772dc85b2dd38b6e39f82e9ea"
     },
     "stats": {
       "total": 0,
@@ -565,6 +565,25 @@
       "date": "2026-09-10"
     },
     "coverage": 90,
+    "test_count": 28,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "javichosGIT",
+    "commit": {
+      "date": "2026-09-10T10:29:41.000Z",
+      "message": "fix: ajustar expectativa de la prueba base con impuesto por defecto de California",
+      "url": "https://github.com/javiergomezucb/Totalizador_de_venta/commit/HEAD"
+    },
+    "stats": {
+      "total": 129,
+      "additions": 100,
+      "deletions": 29,
+      "date": "2026-09-10"
+    },
+    "coverage": 88.46,
     "test_count": 28,
     "failed_tests": 0,
     "conclusion": "success"

@@ -1,9 +1,17 @@
 export function calcularTotal(cantidad, precioUnitario, estado = "CA", categoria = "Varios", pesoVolumetrico = 0, tipoCliente = "Normal") {
-  if (cantidad <= 0) {
+  // Validaciones de cantidad (Requisitos 2 y 47)
+  if (cantidad === undefined || cantidad === null || isNaN(cantidad) || cantidad <= 0) {
     return "Error: Cantidad inválida";
   }
-  if (precioUnitario < 0 || isNaN(precioUnitario)) {
+  
+  // Validaciones de precio unitario (Requisitos 3 y 47)
+  if (precioUnitario === undefined || precioUnitario === null || isNaN(precioUnitario) || precioUnitario < 0) {
     return "Error: Precio inválido";
+  }
+
+  // Validaciones de peso volumétrico (Requisitos 35 y 47)
+  if (pesoVolumetrico === undefined || pesoVolumetrico === null || isNaN(pesoVolumetrico) || pesoVolumetrico < 0) {
+    return "Error: Peso volumétrico inválido";
   }
 
   const precioNeto = cantidad * precioUnitario;
@@ -82,7 +90,7 @@ export function calcularTotal(cantidad, precioUnitario, estado = "CA", categoria
     CA: 0.0825
   };
 
-  const tasaImpuestoBase = tasasImpuestos[estado] || 0;
+  const tasaImpuestoBase = tasasImpuestos[estado] || tasasImpuestos["CA"];
   const tasaImpuestoTotal = tasaImpuestoBase + reglaCategoria.impuestoAdicional;
 
   const subtotalConImpuestos = subtotalConDescuento + (subtotalConDescuento * tasaImpuestoTotal);

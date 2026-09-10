@@ -1,11 +1,11 @@
 import { calcularTotal } from "./totalizador";
 
 describe("Totalizador de ventas", () => {
-  it("debería calcular el precio total multiplicando cantidad por precio unitario", () => {
+  it("debería calcular el precio total multiplicando cantidad por precio unitario con estado por defecto", () => {
     const cantidad = 5;
     const precioUnitario = 10;
-    const resultado = calcularTotal(cantidad, precioUnitario, "");
-    expect(resultado).toEqual(50);
+    const resultado = calcularTotal(cantidad, precioUnitario, "CA");
+    expect(resultado).toEqual(54.125);
   });
 
   it("debería mostrar un mensaje de error si la cantidad es cero o negativa", () => {
@@ -74,7 +74,6 @@ describe("Totalizador de ventas", () => {
   });
 
   it("debería aplicar un 15% de descuento si el precio neto es mayor o igual a 30000", () => {
-
     const resultado = calcularTotal(3000, 10, "AL");
     expect(resultado).toEqual(26520);
   });
@@ -84,7 +83,7 @@ describe("Totalizador de ventas", () => {
     expect(resultado).toEqual(509.6);
   });
 
-it("debería aplicar el impuesto adicional de la categoría Bebidas alcohólicas (7%)", () => {
+  it("debería aplicar el impuesto adicional de la categoría Bebidas alcohólicas (7%)", () => {
     const resultado = calcularTotal(5, 100, "AL", "Bebidas alcohólicas");
     expect(resultado).toEqual(555);
   });
@@ -114,7 +113,7 @@ it("debería aplicar el impuesto adicional de la categoría Bebidas alcohólicas
     expect(resultado).toEqual(520);
   });
 
-it("debería calcular el costo de envío basado en el peso volumétrico para el rango 11-20", () => {
+  it("debería calcular el costo de envío basado en el peso volumétrico para el rango 11-20", () => {
     const resultado = calcularTotal(2, 100, "AL", "Varios", 15);
     expect(resultado).toEqual(215);
   });
@@ -133,7 +132,6 @@ it("debería calcular el costo de envío basado en el peso volumétrico para el 
     const resultado = calcularTotal(40, 100, "AL", "Alimentos", 0, "Recurrente");
     expect(resultado).toEqual(3764.8);
   });
-
 
   it("debería aplicar un descuento fijo de $200 para cliente Especial con precio neto mayor a 7000 y categoría Electrónicos", () => {
     const resultado = calcularTotal(80, 100, "AL", "Electrónicos", 0, "Especial");

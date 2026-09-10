@@ -782,9 +782,39 @@
     "testId": 29
   },
   {
-    "commitId": "HEAD",
+    "commitId": "5fda95eb1879d9e772dc85b2dd38b6e39f82e9ea",
     "commitName": "feat: completar la implementacion de tipos de cliente y descuentos fijos del totalizador",
     "commitTimestamp": 1789035637362,
     "testId": 29
+  },
+  {
+    "numPassedTests": 28,
+    "failedTests": 0,
+    "numTotalTests": 28,
+    "timestamp": 1789035789076,
+    "success": true,
+    "testId": 30
+  },
+  {
+    "numPassedTests": 27,
+    "failedTests": 1,
+    "numTotalTests": 28,
+    "timestamp": 1789036081179,
+    "success": false,
+    "testId": 30
+  },
+  {
+    "numPassedTests": 28,
+    "failedTests": 0,
+    "numTotalTests": 28,
+    "timestamp": 1789036161590,
+    "success": true,
+    "testId": 30
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "fix: ajustar expectativa de la prueba base con impuesto por defecto de California",
+    "commitTimestamp": 1789036181780,
+    "testId": 30
   }
 ]
