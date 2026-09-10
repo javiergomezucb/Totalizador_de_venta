@@ -582,9 +582,31 @@
     "testId": 21
   },
   {
-    "commitId": "HEAD",
+    "commitId": "ebf336e5b0067ec94cf2f12c5f658545017de7b3",
     "commitName": "feat: implementar categoria Electronicos con impuesto y descuento adicional",
     "commitTimestamp": 1789035018862,
     "testId": 21
+  },
+  {
+    "numPassedTests": 21,
+    "failedTests": 1,
+    "numTotalTests": 22,
+    "timestamp": 1789035046052,
+    "success": false,
+    "testId": 22
+  },
+  {
+    "numPassedTests": 22,
+    "failedTests": 0,
+    "numTotalTests": 22,
+    "timestamp": 1789035060000,
+    "success": true,
+    "testId": 22
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: implementar categoria Vestimenta con impuesto adicional",
+    "commitTimestamp": 1789035075657,
+    "testId": 22
   }
 ]

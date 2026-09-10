@@ -27,6 +27,7 @@ export function calcularTotal(cantidad, precioUnitario, estado = "CA", categoria
     "Material de escritorio": { impuestoAdicional: 0, descuentoAdicional: 0.015 },
     "Muebles": { impuestoAdicional: 0.03, descuentoAdicional: 0 },
     "Electrónicos": { impuestoAdicional: 0.04, descuentoAdicional: 0.01 },
+    "Vestimenta": { impuestoAdicional: 0.02, descuentoAdicional: 0 },
     "Varios": { impuestoAdicional: 0, descuentoAdicional: 0 }
   };
 

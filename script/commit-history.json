@@ -399,12 +399,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "ebf336e5b0067ec94cf2f12c5f658545017de7b3",
     "author": "javichosGIT",
     "commit": {
       "date": "2026-09-10T10:10:18.000Z",
       "message": "feat: implementar categoria Electronicos con impuesto y descuento adicional",
-      "url": "https://github.com/javiergomezucb/Totalizador_de_venta/commit/HEAD"
+      "url": "https://github.com/javiergomezucb/Totalizador_de_venta/commit/ebf336e5b0067ec94cf2f12c5f658545017de7b3"
     },
     "stats": {
       "total": 6,
@@ -414,6 +414,25 @@
     },
     "coverage": 100,
     "test_count": 21,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "javichosGIT",
+    "commit": {
+      "date": "2026-09-10T10:11:14.000Z",
+      "message": "feat: implementar categoria Vestimenta con impuesto adicional",
+      "url": "https://github.com/javiergomezucb/Totalizador_de_venta/commit/HEAD"
+    },
+    "stats": {
+      "total": 6,
+      "additions": 6,
+      "deletions": 0,
+      "date": "2026-09-10"
+    },
+    "coverage": 100,
+    "test_count": 22,
     "failed_tests": 0,
     "conclusion": "success"
   }
