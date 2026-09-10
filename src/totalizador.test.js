@@ -12,7 +12,7 @@ describe("Totalizador de ventas", () => {
     const resultado = calcularTotal(0, 10);
     expect(resultado).toEqual("Error: Cantidad inválida");
   });
-  
+
   it("debería mostrar un mensaje de error si el precio es negativo", () => {
     const resultado = calcularTotal(5, -10);
     expect(resultado).toEqual("Error: Precio inválido");
@@ -21,5 +21,10 @@ describe("Totalizador de ventas", () => {
   it("debería mostrar un mensaje de error si el precio no es un número", () => {
     const resultado = calcularTotal(5, "abc");
     expect(resultado).toEqual("Error: Precio inválido");
+  });
+
+  it("debería aceptar un código de estado en el cálculo básico", () => {
+    const resultado = calcularTotal(5, 10, "CA");
+    expect(resultado).toEqual(50);
   });
 });

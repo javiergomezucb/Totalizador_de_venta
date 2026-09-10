@@ -1,4 +1,4 @@
-export function calcularTotal(cantidad, precioUnitario) {
+export function calcularTotal(cantidad, precioUnitario, estado = "CA") {
   if (cantidad <= 0) {
     return "Error: Cantidad inválida";
   }

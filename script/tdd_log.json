@@ -86,9 +86,23 @@
     "testId": 5
   },
   {
-    "commitId": "HEAD",
+    "commitId": "73a14e6f4990e423cbb3ff2c1da82c47a15f5146",
     "commitName": "feat: validar precio negativo o no numerico prueba2",
     "commitTimestamp": 1789032932270,
     "testId": 5
+  },
+  {
+    "numPassedTests": 6,
+    "failedTests": 0,
+    "numTotalTests": 6,
+    "timestamp": 1789033013167,
+    "success": true,
+    "testId": 6
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: incorporar parametro de estado en el calculo base",
+    "commitTimestamp": 1789033053826,
+    "testId": 6
   }
 ]
