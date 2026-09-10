@@ -1,4 +1,4 @@
-export function calcularTotal(cantidad, precioUnitario, estado = "CA", categoria = "Varios") {
+export function calcularTotal(cantidad, precioUnitario, estado = "CA", categoria = "Varios", pesoVolumetrico = 0) {
   if (cantidad <= 0) {
     return "Error: Cantidad inválida";
   }
@@ -36,6 +36,25 @@ export function calcularTotal(cantidad, precioUnitario, estado = "CA", categoria
   const descuentoTotal = descuentoVolumen + reglaCategoria.descuentoAdicional;
   const subtotalConDescuento = precioNeto - (precioNeto * descuentoTotal);
   
+  let costoEnvioUnitario = 0;
+  if (pesoVolumetrico > 200) {
+    costoEnvioUnitario = 9;
+  } else if (pesoVolumetrico >= 101) {
+    costoEnvioUnitario = 8;
+  } else if (pesoVolumetrico >= 80) {
+    costoEnvioUnitario = 6.5;
+  } else if (pesoVolumetrico >= 41) {
+    costoEnvioUnitario = 6;
+  } else if (pesoVolumetrico >= 21) {
+    costoEnvioUnitario = 5;
+  } else if (pesoVolumetrico >= 11) {
+    costoEnvioUnitario = 3.5;
+  } else {
+    costoEnvioUnitario = 0;
+  }
+
+  const costoEnvioTotal = cantidad * costoEnvioUnitario;
+
   const tasasImpuestos = {
     UT: 0.0665,
     NV: 0.08,
@@ -47,5 +66,7 @@ export function calcularTotal(cantidad, precioUnitario, estado = "CA", categoria
   const tasaImpuestoBase = tasasImpuestos[estado] || 0;
   const tasaImpuestoTotal = tasaImpuestoBase + reglaCategoria.impuestoAdicional;
 
-  return subtotalConDescuento + (subtotalConDescuento * tasaImpuestoTotal);
+  const subtotalConImpuestos = subtotalConDescuento + (subtotalConDescuento * tasaImpuestoTotal);
+
+  return subtotalConImpuestos + costoEnvioTotal;
 }

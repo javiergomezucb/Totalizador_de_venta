@@ -618,9 +618,63 @@
     "testId": 23
   },
   {
-    "commitId": "HEAD",
+    "commitId": "73c973f0a5acb01a4c1e3394097ea58d64c08006",
     "commitName": "feat: implementar y verificar categoria por defecto Varios",
     "commitTimestamp": 1789035126459,
     "testId": 23
+  },
+  {
+    "numPassedTests": 23,
+    "failedTests": 1,
+    "numTotalTests": 24,
+    "timestamp": 1789035161421,
+    "success": false,
+    "testId": 24
+  },
+  {
+    "numPassedTests": 23,
+    "failedTests": 1,
+    "numTotalTests": 24,
+    "timestamp": 1789035164637,
+    "success": false,
+    "testId": 24
+  },
+  {
+    "numPassedTests": 23,
+    "failedTests": 1,
+    "numTotalTests": 24,
+    "timestamp": 1789035167422,
+    "success": false,
+    "testId": 24
+  },
+  {
+    "numPassedTests": 23,
+    "failedTests": 1,
+    "numTotalTests": 24,
+    "timestamp": 1789035174376,
+    "success": false,
+    "testId": 24
+  },
+  {
+    "numPassedTests": 23,
+    "failedTests": 1,
+    "numTotalTests": 24,
+    "timestamp": 1789035185721,
+    "success": false,
+    "testId": 24
+  },
+  {
+    "numPassedTests": 24,
+    "failedTests": 0,
+    "numTotalTests": 24,
+    "timestamp": 1789035228209,
+    "success": true,
+    "testId": 24
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "fix: corregir expectativa de prueba para costo de envio por peso volumetrico",
+    "commitTimestamp": 1789035245048,
+    "testId": 24
   }
 ]

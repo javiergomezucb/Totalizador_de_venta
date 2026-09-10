@@ -113,4 +113,9 @@ it("debería aplicar el impuesto adicional de la categoría Bebidas alcohólicas
     const resultado = calcularTotal(5, 100, "AL", "Varios");
     expect(resultado).toEqual(520);
   });
+
+it("debería calcular el costo de envío basado en el peso volumétrico para el rango 11-20", () => {
+    const resultado = calcularTotal(2, 100, "AL", "Varios", 15);
+    expect(resultado).toEqual(215);
+  });
 });
