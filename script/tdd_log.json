@@ -22,9 +22,23 @@
     "testId": 1
   },
   {
-    "commitId": "HEAD",
+    "commitId": "ff4c1d59d5a926a996c82a2837c07376a8352f84",
     "commitName": "feat: implementar calculo de precio total base",
     "commitTimestamp": 1789032498188,
     "testId": 1
+  },
+  {
+    "numPassedTests": 2,
+    "failedTests": 1,
+    "numTotalTests": 3,
+    "timestamp": 1789032588913,
+    "success": false,
+    "testId": 2
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "test: agregar prueba para cantidad cero o negativa",
+    "commitTimestamp": 1789032633794,
+    "testId": 2
   }
 ]

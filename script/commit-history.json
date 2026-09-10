@@ -19,12 +19,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "ff4c1d59d5a926a996c82a2837c07376a8352f84",
     "author": "javichosGIT",
     "commit": {
       "date": "2026-09-10T09:28:17.000Z",
       "message": "feat: implementar calculo de precio total base",
-      "url": "https://github.com/javiergomezucb/Totalizador_de_venta/commit/HEAD"
+      "url": "https://github.com/javiergomezucb/Totalizador_de_venta/commit/ff4c1d59d5a926a996c82a2837c07376a8352f84"
     },
     "stats": {
       "total": 13,
@@ -36,5 +36,24 @@
     "test_count": 2,
     "failed_tests": 0,
     "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "javichosGIT",
+    "commit": {
+      "date": "2026-09-10T09:30:33.000Z",
+      "message": "test: agregar prueba para cantidad cero o negativa",
+      "url": "https://github.com/javiergomezucb/Totalizador_de_venta/commit/HEAD"
+    },
+    "stats": {
+      "total": 6,
+      "additions": 6,
+      "deletions": 0,
+      "date": "2026-09-10"
+    },
+    "coverage": 100,
+    "test_count": 3,
+    "failed_tests": 1,
+    "conclusion": "failure"
   }
 ]

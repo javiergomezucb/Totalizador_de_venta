@@ -7,4 +7,10 @@ describe("Totalizador de ventas", () => {
     const resultado = calcularTotal(cantidad, precioUnitario);
     expect(resultado).toEqual(50);
   });
+
+  it("debería mostrar un mensaje de error si la cantidad es cero o negativa", () => {
+    const resultado = calcularTotal(0, 10);
+    expect(resultado).toEqual("Error: Cantidad inválida");
+  });
+  
 });
