@@ -36,9 +36,23 @@
     "testId": 2
   },
   {
-    "commitId": "HEAD",
+    "commitId": "469aaf12a528ac30e36fc84656f06032321ebc88",
     "commitName": "test: agregar prueba para cantidad cero o negativa",
     "commitTimestamp": 1789032633794,
     "testId": 2
+  },
+  {
+    "numPassedTests": 3,
+    "failedTests": 0,
+    "numTotalTests": 3,
+    "timestamp": 1789032671912,
+    "success": true,
+    "testId": 3
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: validar cantidad cero o negativa en el calculo",
+    "commitTimestamp": 1789032686853,
+    "testId": 3
   }
 ]
