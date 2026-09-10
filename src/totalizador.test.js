@@ -128,4 +128,9 @@ it("debería calcular el costo de envío basado en el peso volumétrico para el 
     const resultado = calcularTotal(2, 100, "AL", "Varios", 15, "Antiguo Recurrente");
     expect(resultado).toEqual(214.93);
   });
+
+  it("debería aplicar un descuento fijo de $100 para cliente Recurrente con precio neto mayor a 3000 y categoría Alimentos", () => {
+    const resultado = calcularTotal(40, 100, "AL", "Alimentos", 0, "Recurrente");
+    expect(resultado).toEqual(3764.8);
+  });
 });

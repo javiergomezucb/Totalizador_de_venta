@@ -708,9 +708,31 @@
     "testId": 26
   },
   {
-    "commitId": "HEAD",
+    "commitId": "9179f1edc6f93a5eacac277d8f52c91c058bbf60",
     "commitName": "feat: implementar descuento en costo de envio para cliente Antiguo Recurrente",
     "commitTimestamp": 1789035481965,
     "testId": 26
+  },
+  {
+    "numPassedTests": 26,
+    "failedTests": 1,
+    "numTotalTests": 27,
+    "timestamp": 1789035518996,
+    "success": false,
+    "testId": 27
+  },
+  {
+    "numPassedTests": 27,
+    "failedTests": 0,
+    "numTotalTests": 27,
+    "timestamp": 1789035535478,
+    "success": true,
+    "testId": 27
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: implementar descuento fijo de  para cliente Recurrente en Alimentos",
+    "commitTimestamp": 1789035545366,
+    "testId": 27
   }
 ]

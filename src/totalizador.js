@@ -34,8 +34,16 @@ export function calcularTotal(cantidad, precioUnitario, estado = "CA", categoria
   const reglaCategoria = categoriasReglas[categoria] || categoriasReglas["Varios"];
 
   const descuentoTotal = descuentoVolumen + reglaCategoria.descuentoAdicional;
-  const subtotalConDescuento = precioNeto - (precioNeto * descuentoTotal);
+  let subtotalConDescuento = precioNeto - (precioNeto * descuentoTotal);
   
+  // Descuentos de monto fijo por tipo de cliente, precio neto y categoría
+  let descuentoFijo = 0;
+  if (tipoCliente === "Recurrente" && precioNeto > 3000 && categoria === "Alimentos") {
+    descuentoFijo = 100;
+  }
+
+  subtotalConDescuento = Math.max(0, subtotalConDescuento - descuentoFijo);
+
   let costoEnvioUnitario = 0;
   if (pesoVolumetrico > 200) {
     costoEnvioUnitario = 9;
@@ -55,7 +63,6 @@ export function calcularTotal(cantidad, precioUnitario, estado = "CA", categoria
 
   const costoEnvioBase = cantidad * costoEnvioUnitario;
 
-  // Descuentos en el costo de envío por tipo de cliente
   const clienteDescuentosEnvio = {
     "Normal": 0,
     "Recurrente": 0.005,
