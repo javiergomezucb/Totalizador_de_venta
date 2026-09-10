@@ -530,9 +530,31 @@
     "testId": 19
   },
   {
-    "commitId": "HEAD",
+    "commitId": "6b617a4a9cb5c21db7295067b1dafc846afe8c7c",
     "commitName": "feat: implementar categoria Material de escritorio con descuento adicional",
     "commitTimestamp": 1789034863932,
     "testId": 19
+  },
+  {
+    "numPassedTests": 19,
+    "failedTests": 1,
+    "numTotalTests": 20,
+    "timestamp": 1789034885704,
+    "success": false,
+    "testId": 20
+  },
+  {
+    "numPassedTests": 20,
+    "failedTests": 0,
+    "numTotalTests": 20,
+    "timestamp": 1789034907009,
+    "success": true,
+    "testId": 20
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: implementar categoria Muebles con impuesto adicional",
+    "commitTimestamp": 1789034919510,
+    "testId": 20
   }
 ]

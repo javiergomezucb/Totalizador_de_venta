@@ -25,6 +25,7 @@ export function calcularTotal(cantidad, precioUnitario, estado = "CA", categoria
     "Alimentos": { impuestoAdicional: 0, descuentoAdicional: 0.02 },
     "Bebidas alcohólicas": { impuestoAdicional: 0.07, descuentoAdicional: 0 },
     "Material de escritorio": { impuestoAdicional: 0, descuentoAdicional: 0.015 },
+    "Muebles": { impuestoAdicional: 0.03, descuentoAdicional: 0 },
     "Varios": { impuestoAdicional: 0, descuentoAdicional: 0 }
   };
 

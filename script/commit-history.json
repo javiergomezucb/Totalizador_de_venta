@@ -361,12 +361,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "6b617a4a9cb5c21db7295067b1dafc846afe8c7c",
     "author": "javichosGIT",
     "commit": {
       "date": "2026-09-10T10:07:43.000Z",
       "message": "feat: implementar categoria Material de escritorio con descuento adicional",
-      "url": "https://github.com/javiergomezucb/Totalizador_de_venta/commit/HEAD"
+      "url": "https://github.com/javiergomezucb/Totalizador_de_venta/commit/6b617a4a9cb5c21db7295067b1dafc846afe8c7c"
     },
     "stats": {
       "total": 6,
@@ -376,6 +376,25 @@
     },
     "coverage": 100,
     "test_count": 19,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "javichosGIT",
+    "commit": {
+      "date": "2026-09-10T10:08:38.000Z",
+      "message": "feat: implementar categoria Muebles con impuesto adicional",
+      "url": "https://github.com/javiergomezucb/Totalizador_de_venta/commit/HEAD"
+    },
+    "stats": {
+      "total": 6,
+      "additions": 6,
+      "deletions": 0,
+      "date": "2026-09-10"
+    },
+    "coverage": 100,
+    "test_count": 20,
     "failed_tests": 0,
     "conclusion": "success"
   }

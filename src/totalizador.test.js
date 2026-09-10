@@ -93,4 +93,9 @@ it("debería aplicar el impuesto adicional de la categoría Bebidas alcohólicas
     const resultado = calcularTotal(5, 100, "AL", "Material de escritorio");
     expect(resultado).toEqual(512.2);
   });
+
+  it("debería aplicar el impuesto adicional de la categoría Muebles (3%)", () => {
+    const resultado = calcularTotal(5, 100, "AL", "Muebles");
+    expect(resultado).toEqual(535);
+  });
 });
