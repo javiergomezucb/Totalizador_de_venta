@@ -98,4 +98,9 @@ it("debería aplicar el impuesto adicional de la categoría Bebidas alcohólicas
     const resultado = calcularTotal(5, 100, "AL", "Muebles");
     expect(resultado).toEqual(535);
   });
+
+  it("debería aplicar el impuesto y descuento adicional de la categoría Electrónicos", () => {
+    const resultado = calcularTotal(5, 100, "AL", "Electrónicos");
+    expect(resultado).toEqual(534.6);
+  });
 });
