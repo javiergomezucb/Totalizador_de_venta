@@ -266,12 +266,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "4794942ab7667ccae4a64a4ec616d8471f8b8099",
     "author": "javichosGIT",
     "commit": {
       "date": "2026-09-10T10:00:00.000Z",
       "message": "feat: implementar tercer tramo de descuento por volumen (7%)",
-      "url": "https://github.com/javiergomezucb/Totalizador_de_venta/commit/HEAD"
+      "url": "https://github.com/javiergomezucb/Totalizador_de_venta/commit/4794942ab7667ccae4a64a4ec616d8471f8b8099"
     },
     "stats": {
       "total": 8,
@@ -281,6 +281,25 @@
     },
     "coverage": 90.48,
     "test_count": 14,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "javichosGIT",
+    "commit": {
+      "date": "2026-09-10T10:00:57.000Z",
+      "message": "feat: implementar cuarto tramo de descuento por volumen (10%)",
+      "url": "https://github.com/javiergomezucb/Totalizador_de_venta/commit/HEAD"
+    },
+    "stats": {
+      "total": 5,
+      "additions": 5,
+      "deletions": 0,
+      "date": "2026-09-10"
+    },
+    "coverage": 95.24,
+    "test_count": 15,
     "failed_tests": 0,
     "conclusion": "success"
   }
