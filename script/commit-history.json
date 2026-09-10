@@ -513,12 +513,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "c0475039de5559ddfaa5e2a7e5ce680c857ce323",
     "author": "javichosGIT",
     "commit": {
       "date": "2026-09-10T10:19:04.000Z",
       "message": "feat: implementar descuento fijo de  para cliente Recurrente en Alimentos",
-      "url": "https://github.com/javiergomezucb/Totalizador_de_venta/commit/HEAD"
+      "url": "https://github.com/javiergomezucb/Totalizador_de_venta/commit/c0475039de5559ddfaa5e2a7e5ce680c857ce323"
     },
     "stats": {
       "total": 16,
@@ -528,6 +528,25 @@
     },
     "coverage": 89.58,
     "test_count": 27,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "javichosGIT",
+    "commit": {
+      "date": "2026-09-10T10:19:59.000Z",
+      "message": "feat: implementar descuento fijo de  para cliente Especial en Electronicos",
+      "url": "https://github.com/javiergomezucb/Totalizador_de_venta/commit/HEAD"
+    },
+    "stats": {
+      "total": 9,
+      "additions": 8,
+      "deletions": 1,
+      "date": "2026-09-10"
+    },
+    "coverage": 90,
+    "test_count": 28,
     "failed_tests": 0,
     "conclusion": "success"
   }

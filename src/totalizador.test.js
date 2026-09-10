@@ -133,4 +133,10 @@ it("debería calcular el costo de envío basado en el peso volumétrico para el 
     const resultado = calcularTotal(40, 100, "AL", "Alimentos", 0, "Recurrente");
     expect(resultado).toEqual(3764.8);
   });
+
+
+  it("debería aplicar un descuento fijo de $200 para cliente Especial con precio neto mayor a 7000 y categoría Electrónicos", () => {
+    const resultado = calcularTotal(80, 100, "AL", "Electrónicos", 0, "Especial");
+    expect(resultado).toEqual(7732.8);
+  });
 });

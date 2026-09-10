@@ -730,9 +730,47 @@
     "testId": 27
   },
   {
-    "commitId": "HEAD",
+    "commitId": "c0475039de5559ddfaa5e2a7e5ce680c857ce323",
     "commitName": "feat: implementar descuento fijo de  para cliente Recurrente en Alimentos",
     "commitTimestamp": 1789035545366,
     "testId": 27
+  },
+  {
+    "numPassedTests": 27,
+    "failedTests": 1,
+    "numTotalTests": 28,
+    "timestamp": 1789035567662,
+    "success": false,
+    "testId": 28
+  },
+  {
+    "numPassedTests": 27,
+    "failedTests": 1,
+    "numTotalTests": 28,
+    "timestamp": 1789035573595,
+    "success": false,
+    "testId": 28
+  },
+  {
+    "numPassedTests": 27,
+    "failedTests": 1,
+    "numTotalTests": 28,
+    "timestamp": 1789035578006,
+    "success": false,
+    "testId": 28
+  },
+  {
+    "numPassedTests": 28,
+    "failedTests": 0,
+    "numTotalTests": 28,
+    "timestamp": 1789035591556,
+    "success": true,
+    "testId": 28
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: implementar descuento fijo de  para cliente Especial en Electronicos",
+    "commitTimestamp": 1789035600369,
+    "testId": 28
   }
 ]
