@@ -240,9 +240,127 @@
     "testId": 12
   },
   {
-    "commitId": "HEAD",
+    "commitId": "7459f385c1b92fe6b64a41398b33d7189eff6524",
     "commitName": "feat: calcular impuesto para el estado CA",
     "commitTimestamp": 1789033602916,
     "testId": 12
+  },
+  {
+    "numPassedTests": 9,
+    "failedTests": 3,
+    "numTotalTests": 12,
+    "timestamp": 1789033757719,
+    "success": false,
+    "testId": 13
+  },
+  {
+    "numPassedTests": 10,
+    "failedTests": 2,
+    "numTotalTests": 12,
+    "timestamp": 1789033850458,
+    "success": false,
+    "testId": 13
+  },
+  {
+    "numPassedTests": 10,
+    "failedTests": 2,
+    "numTotalTests": 12,
+    "timestamp": 1789033863430,
+    "success": false,
+    "testId": 13
+  },
+  {
+    "numPassedTests": 11,
+    "failedTests": 1,
+    "numTotalTests": 12,
+    "timestamp": 1789033926626,
+    "success": false,
+    "testId": 13
+  },
+  {
+    "numPassedTests": 11,
+    "failedTests": 1,
+    "numTotalTests": 12,
+    "timestamp": 1789033985618,
+    "success": false,
+    "testId": 13
+  },
+  {
+    "numPassedTests": 12,
+    "failedTests": 1,
+    "numTotalTests": 13,
+    "timestamp": 1789034001816,
+    "success": false,
+    "testId": 13
+  },
+  {
+    "numPassedTests": 12,
+    "failedTests": 0,
+    "numTotalTests": 12,
+    "timestamp": 1789034079200,
+    "success": true,
+    "testId": 13
+  },
+  {
+    "numPassedTests": 13,
+    "failedTests": 0,
+    "numTotalTests": 13,
+    "timestamp": 1789034104760,
+    "success": true,
+    "testId": 13
+  },
+  {
+    "numPassedTests": 1,
+    "failedTests": 24,
+    "numTotalTests": 25,
+    "timestamp": 1789034118636,
+    "success": false,
+    "testId": 13
+  },
+  {
+    "numPassedTests": 12,
+    "failedTests": 1,
+    "numTotalTests": 13,
+    "timestamp": 1789034142246,
+    "success": false,
+    "testId": 13
+  },
+  {
+    "numPassedTests": 11,
+    "failedTests": 2,
+    "numTotalTests": 13,
+    "timestamp": 1789034153828,
+    "success": false,
+    "testId": 13
+  },
+  {
+    "numPassedTests": 12,
+    "failedTests": 1,
+    "numTotalTests": 13,
+    "timestamp": 1789034167964,
+    "success": false,
+    "testId": 13
+  },
+  {
+    "numPassedTests": 12,
+    "failedTests": 1,
+    "numTotalTests": 13,
+    "timestamp": 1789034218523,
+    "success": false,
+    "testId": 13
+  },
+  {
+    "numPassedTests": 13,
+    "failedTests": 0,
+    "numTotalTests": 13,
+    "timestamp": 1789034279427,
+    "success": true,
+    "testId": 13
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: actualizar logica y pruebas para tramos de descuento y validaciones base",
+    "commitTimestamp": 1789034290350,
+    "testId": 13
   }
 ]

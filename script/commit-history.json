@@ -228,12 +228,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "7459f385c1b92fe6b64a41398b33d7189eff6524",
     "author": "javichosGIT",
     "commit": {
       "date": "2026-09-10T09:46:42.000Z",
       "message": "feat: calcular impuesto para el estado CA",
-      "url": "https://github.com/javiergomezucb/Totalizador_de_venta/commit/HEAD"
+      "url": "https://github.com/javiergomezucb/Totalizador_de_venta/commit/7459f385c1b92fe6b64a41398b33d7189eff6524"
     },
     "stats": {
       "total": 7,
@@ -245,5 +245,24 @@
     "test_count": 11,
     "failed_tests": 2,
     "conclusion": "failure"
+  },
+  {
+    "sha": "HEAD",
+    "author": "javichosGIT",
+    "commit": {
+      "date": "2026-09-10T09:58:09.000Z",
+      "message": "feat: actualizar logica y pruebas para tramos de descuento y validaciones base",
+      "url": "https://github.com/javiergomezucb/Totalizador_de_venta/commit/HEAD"
+    },
+    "stats": {
+      "total": 55,
+      "additions": 39,
+      "deletions": 16,
+      "date": "2026-09-10"
+    },
+    "coverage": 85.71,
+    "test_count": 13,
+    "failed_tests": 0,
+    "conclusion": "success"
   }
 ]

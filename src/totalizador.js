@@ -6,20 +6,33 @@ export function calcularTotal(cantidad, precioUnitario, estado = "CA") {
     return "Error: Precio inválido";
   }
 
-  const subtotal = cantidad * precioUnitario;
+  const precioNeto = cantidad * precioUnitario;
   
-  let tasaImpuesto = 0;
-  if (estado === "UT") {
-    tasaImpuesto = 0.0665;
-  } else if (estado === "NV") {
-    tasaImpuesto = 0.08;
-  } else if (estado === "TX") {
-    tasaImpuesto = 0.0625;
-  } else if (estado === "AL") {
-    tasaImpuesto = 0.04;
-  } else if (estado === "CA") {
-    tasaImpuesto = 0.0825;
+  // Descuentos por volumen según la tabla oficial[cite: 1]
+  let descuento = 0;
+  if (precioNeto >= 30000) {
+    descuento = 0.15;
+  } else if (precioNeto >= 10000) {
+    descuento = 0.10;
+  } else if (precioNeto >= 7000) {
+    descuento = 0.07;
+  } else if (precioNeto >= 3000) {
+    descuento = 0.05;
+  } else if (precioNeto >= 1000) {
+    descuento = 0.03;
   }
 
-  return subtotal + (subtotal * tasaImpuesto);
+  const subtotalConDescuento = precioNeto - (precioNeto * descuento);
+  
+  const tasasImpuestos = {
+    UT: 0.0665,
+    NV: 0.08,
+    TX: 0.0625,
+    AL: 0.04,
+    CA: 0.0825
+  };
+
+  const tasaImpuesto = tasasImpuestos[estado] || 0;
+
+  return subtotalConDescuento + (subtotalConDescuento * tasaImpuesto);
 }

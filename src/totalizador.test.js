@@ -4,7 +4,7 @@ describe("Totalizador de ventas", () => {
   it("debería calcular el precio total multiplicando cantidad por precio unitario", () => {
     const cantidad = 5;
     const precioUnitario = 10;
-    const resultado = calcularTotal(cantidad, precioUnitario);
+    const resultado = calcularTotal(cantidad, precioUnitario, "");
     expect(resultado).toEqual(50);
   });
 
@@ -23,9 +23,9 @@ describe("Totalizador de ventas", () => {
     expect(resultado).toEqual("Error: Precio inválido");
   });
 
-  it("debería aceptar un código de estado en el cálculo básico", () => {
+  it("debería calcular el precio con impuesto para el estado CA por defecto", () => {
     const resultado = calcularTotal(5, 10, "CA");
-    expect(resultado).toEqual(50);
+    expect(resultado).toEqual(54.125);
   });
 
   it("debería calcular el precio total incluyendo el impuesto para el estado UT (6.65%)", () => {
@@ -51,5 +51,15 @@ describe("Totalizador de ventas", () => {
   it("debería calcular el precio total incluyendo el impuesto para el estado CA (8.25%)", () => {
     const resultado = calcularTotal(5, 10, "CA");
     expect(resultado).toEqual(54.125);
+  });
+
+  it("debería aplicar un 3% de descuento si el precio neto es mayor o igual a 1000", () => {
+    const resultado = calcularTotal(100, 10, "AL");
+    expect(resultado).toEqual(1008.8);
+  });
+
+  it("debería aplicar un 5% de descuento si el precio neto es mayor o igual a 3000", () => {
+    const resultado = calcularTotal(300, 10, "AL");
+    expect(resultado).toEqual(2964);
   });
 });
