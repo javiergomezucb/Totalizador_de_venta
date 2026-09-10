@@ -1,0 +1,21 @@
+[
+  {
+    "sha": "HEAD",
+    "author": "javichosGIT",
+    "commit": {
+      "date": "2026-09-10T08:04:37.000Z",
+      "message": "chore: inicializar proyecto base",
+      "url": "/commit/HEAD"
+    },
+    "stats": {
+      "total": 29963,
+      "additions": 29963,
+      "deletions": 0,
+      "date": "2026-09-10"
+    },
+    "coverage": 100,
+    "test_count": 1,
+    "failed_tests": 0,
+    "conclusion": "success"
+  }
+]
