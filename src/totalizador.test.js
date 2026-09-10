@@ -83,4 +83,9 @@ describe("Totalizador de ventas", () => {
     const resultado = calcularTotal(5, 100, "AL", "Alimentos");
     expect(resultado).toEqual(509.6);
   });
+
+it("debería aplicar el impuesto adicional de la categoría Bebidas alcohólicas (7%)", () => {
+    const resultado = calcularTotal(5, 100, "AL", "Bebidas alcohólicas");
+    expect(resultado).toEqual(555);
+  });
 });

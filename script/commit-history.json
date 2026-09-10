@@ -323,12 +323,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "3f050f9e6665ce6ff69bfddaa2b2a609de114784",
     "author": "javichosGIT",
     "commit": {
       "date": "2026-09-10T10:04:36.000Z",
       "message": "feat: implementar categoria de producto Alimentos con descuento adicional",
-      "url": "https://github.com/javiergomezucb/Totalizador_de_venta/commit/HEAD"
+      "url": "https://github.com/javiergomezucb/Totalizador_de_venta/commit/3f050f9e6665ce6ff69bfddaa2b2a609de114784"
     },
     "stats": {
       "total": 34,
@@ -338,6 +338,25 @@
     },
     "coverage": 100,
     "test_count": 17,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "javichosGIT",
+    "commit": {
+      "date": "2026-09-10T10:06:40.000Z",
+      "message": "fix: corregir expectativa de prueba para categoria Bebidas alcoholicas",
+      "url": "https://github.com/javiergomezucb/Totalizador_de_venta/commit/HEAD"
+    },
+    "stats": {
+      "total": 6,
+      "additions": 6,
+      "deletions": 0,
+      "date": "2026-09-10"
+    },
+    "coverage": 100,
+    "test_count": 18,
     "failed_tests": 0,
     "conclusion": "success"
   }

@@ -23,6 +23,7 @@ export function calcularTotal(cantidad, precioUnitario, estado = "CA", categoria
 
   const categoriasReglas = {
     "Alimentos": { impuestoAdicional: 0, descuentoAdicional: 0.02 },
+    "Bebidas alcohólicas": { impuestoAdicional: 0.07, descuentoAdicional: 0 },
     "Varios": { impuestoAdicional: 0, descuentoAdicional: 0 }
   };
 

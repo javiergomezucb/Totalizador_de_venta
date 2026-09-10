@@ -454,9 +454,55 @@
     "testId": 17
   },
   {
-    "commitId": "HEAD",
+    "commitId": "3f050f9e6665ce6ff69bfddaa2b2a609de114784",
     "commitName": "feat: implementar categoria de producto Alimentos con descuento adicional",
     "commitTimestamp": 1789034676969,
     "testId": 17
+  },
+  {
+    "numPassedTests": 17,
+    "failedTests": 0,
+    "numTotalTests": 17,
+    "timestamp": 1789034704970,
+    "success": true,
+    "testId": 18
+  },
+  {
+    "numPassedTests": 17,
+    "failedTests": 1,
+    "numTotalTests": 18,
+    "timestamp": 1789034711928,
+    "success": false,
+    "testId": 18
+  },
+  {
+    "numPassedTests": 17,
+    "failedTests": 1,
+    "numTotalTests": 18,
+    "timestamp": 1789034728068,
+    "success": false,
+    "testId": 18
+  },
+  {
+    "numPassedTests": 17,
+    "failedTests": 1,
+    "numTotalTests": 18,
+    "timestamp": 1789034748930,
+    "success": false,
+    "testId": 18
+  },
+  {
+    "numPassedTests": 18,
+    "failedTests": 0,
+    "numTotalTests": 18,
+    "timestamp": 1789034785476,
+    "success": true,
+    "testId": 18
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "fix: corregir expectativa de prueba para categoria Bebidas alcoholicas",
+    "commitTimestamp": 1789034801648,
+    "testId": 18
   }
 ]
