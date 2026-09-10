@@ -32,4 +32,9 @@ describe("Totalizador de ventas", () => {
     const resultado = calcularTotal(5, 10, "UT");
     expect(resultado).toEqual(53.325);
   });
+
+  it("debería calcular el precio total incluyendo el impuesto para el estado NV (8%)", () => {
+    const resultado = calcularTotal(5, 10, "NV");
+    expect(resultado).toEqual(54);
+  });
 });
