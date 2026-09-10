@@ -672,9 +672,31 @@
     "testId": 24
   },
   {
-    "commitId": "HEAD",
+    "commitId": "bf256ae883866f0d6bd431002cf9a027e55017dd",
     "commitName": "fix: corregir expectativa de prueba para costo de envio por peso volumetrico",
     "commitTimestamp": 1789035245048,
     "testId": 24
+  },
+  {
+    "numPassedTests": 24,
+    "failedTests": 1,
+    "numTotalTests": 25,
+    "timestamp": 1789035407051,
+    "success": false,
+    "testId": 25
+  },
+  {
+    "numPassedTests": 25,
+    "failedTests": 0,
+    "numTotalTests": 25,
+    "timestamp": 1789035426729,
+    "success": true,
+    "testId": 25
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: implementar descuento en costo de envio para cliente Recurrente",
+    "commitTimestamp": 1789035438450,
+    "testId": 25
   }
 ]

@@ -1,4 +1,4 @@
-export function calcularTotal(cantidad, precioUnitario, estado = "CA", categoria = "Varios", pesoVolumetrico = 0) {
+export function calcularTotal(cantidad, precioUnitario, estado = "CA", categoria = "Varios", pesoVolumetrico = 0, tipoCliente = "Normal") {
   if (cantidad <= 0) {
     return "Error: Cantidad inválida";
   }
@@ -53,7 +53,18 @@ export function calcularTotal(cantidad, precioUnitario, estado = "CA", categoria
     costoEnvioUnitario = 0;
   }
 
-  const costoEnvioTotal = cantidad * costoEnvioUnitario;
+  const costoEnvioBase = cantidad * costoEnvioUnitario;
+
+  // Descuentos en el costo de envío por tipo de cliente
+  const clienteDescuentosEnvio = {
+    "Normal": 0,
+    "Recurrente": 0.005,
+    "Antiguo Recurrente": 0.01,
+    "Especial": 0.015
+  };
+
+  const descuentoEnvioTasa = clienteDescuentosEnvio[tipoCliente] || 0;
+  const costoEnvioTotal = costoEnvioBase - (costoEnvioBase * descuentoEnvioTasa);
 
   const tasasImpuestos = {
     UT: 0.0665,

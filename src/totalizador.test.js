@@ -118,4 +118,9 @@ it("debería calcular el costo de envío basado en el peso volumétrico para el 
     const resultado = calcularTotal(2, 100, "AL", "Varios", 15);
     expect(resultado).toEqual(215);
   });
+
+  it("debería aplicar el descuento en el costo de envío para el tipo de cliente Recurrente (0.5%)", () => {
+    const resultado = calcularTotal(2, 100, "AL", "Varios", 15, "Recurrente");
+    expect(resultado).toEqual(214.965);
+  });
 });

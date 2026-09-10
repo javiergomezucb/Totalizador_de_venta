@@ -456,12 +456,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "bf256ae883866f0d6bd431002cf9a027e55017dd",
     "author": "javichosGIT",
     "commit": {
       "date": "2026-09-10T10:14:04.000Z",
       "message": "fix: corregir expectativa de prueba para costo de envio por peso volumetrico",
-      "url": "https://github.com/javiergomezucb/Totalizador_de_venta/commit/HEAD"
+      "url": "https://github.com/javiergomezucb/Totalizador_de_venta/commit/bf256ae883866f0d6bd431002cf9a027e55017dd"
     },
     "stats": {
       "total": 30,
@@ -471,6 +471,25 @@
     },
     "coverage": 87.8,
     "test_count": 24,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "javichosGIT",
+    "commit": {
+      "date": "2026-09-10T10:17:17.000Z",
+      "message": "feat: implementar descuento en costo de envio para cliente Recurrente",
+      "url": "https://github.com/javiergomezucb/Totalizador_de_venta/commit/HEAD"
+    },
+    "stats": {
+      "total": 20,
+      "additions": 18,
+      "deletions": 2,
+      "date": "2026-09-10"
+    },
+    "coverage": 88.64,
+    "test_count": 25,
     "failed_tests": 0,
     "conclusion": "success"
   }
