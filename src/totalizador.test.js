@@ -72,4 +72,10 @@ describe("Totalizador de ventas", () => {
     const resultado = calcularTotal(1000, 10, "AL");
     expect(resultado).toEqual(9360);
   });
+
+  it("debería aplicar un 15% de descuento si el precio neto es mayor o igual a 30000", () => {
+
+    const resultado = calcularTotal(3000, 10, "AL");
+    expect(resultado).toEqual(26520);
+  });
 });

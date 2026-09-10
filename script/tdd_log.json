@@ -410,9 +410,31 @@
     "testId": 15
   },
   {
-    "commitId": "HEAD",
+    "commitId": "54f2365d07642ae2211e2945a288c17e760127e6",
     "commitName": "feat: implementar cuarto tramo de descuento por volumen (10%)",
     "commitTimestamp": 1789034457806,
     "testId": 15
+  },
+  {
+    "numPassedTests": 15,
+    "failedTests": 0,
+    "numTotalTests": 15,
+    "timestamp": 1789034474609,
+    "success": true,
+    "testId": 16
+  },
+  {
+    "numPassedTests": 16,
+    "failedTests": 0,
+    "numTotalTests": 16,
+    "timestamp": 1789034493351,
+    "success": true,
+    "testId": 16
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: implementar quinto tramo de descuento por volumen (15%)",
+    "commitTimestamp": 1789034505886,
+    "testId": 16
   }
 ]
