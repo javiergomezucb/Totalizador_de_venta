@@ -57,12 +57,12 @@
     "conclusion": "failure"
   },
   {
-    "sha": "HEAD",
+    "sha": "1c13f68343f2990b2547d7588488e0e9d7216bb8",
     "author": "javichosGIT",
     "commit": {
       "date": "2026-09-10T09:31:26.000Z",
       "message": "feat: validar cantidad cero o negativa en el calculo",
-      "url": "https://github.com/javiergomezucb/Totalizador_de_venta/commit/HEAD"
+      "url": "https://github.com/javiergomezucb/Totalizador_de_venta/commit/1c13f68343f2990b2547d7588488e0e9d7216bb8"
     },
     "stats": {
       "total": 3,
@@ -72,6 +72,25 @@
     },
     "coverage": 100,
     "test_count": 3,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "javichosGIT",
+    "commit": {
+      "date": "2026-09-10T09:34:41.000Z",
+      "message": "feat: validar precio negativo o no numerico",
+      "url": "https://github.com/javiergomezucb/Totalizador_de_venta/commit/HEAD"
+    },
+    "stats": {
+      "total": 7,
+      "additions": 7,
+      "deletions": 0,
+      "date": "2026-09-10"
+    },
+    "coverage": 100,
+    "test_count": 4,
     "failed_tests": 0,
     "conclusion": "success"
   }

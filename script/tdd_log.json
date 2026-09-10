@@ -50,9 +50,31 @@
     "testId": 3
   },
   {
-    "commitId": "HEAD",
+    "commitId": "1c13f68343f2990b2547d7588488e0e9d7216bb8",
     "commitName": "feat: validar cantidad cero o negativa en el calculo",
     "commitTimestamp": 1789032686853,
     "testId": 3
+  },
+  {
+    "numPassedTests": 3,
+    "failedTests": 1,
+    "numTotalTests": 4,
+    "timestamp": 1789032849351,
+    "success": false,
+    "testId": 4
+  },
+  {
+    "numPassedTests": 4,
+    "failedTests": 0,
+    "numTotalTests": 4,
+    "timestamp": 1789032868316,
+    "success": true,
+    "testId": 4
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: validar precio negativo o no numerico",
+    "commitTimestamp": 1789032881780,
+    "testId": 4
   }
 ]
